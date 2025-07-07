@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio Douglas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--IMPORTANDO ICONS-->
+    <link rel="stylesheet" href="src/css/style.css"> <!--LINKANDO O CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+</head>
+<body>
+    <header>
+        <nav id="Menu"> <!--MENU SUPERIOR-->
+            <a href="#sobre">Sobre</a>  
+            <a href="#Formação">Formação</a>  
+            <a href="#Trabalhos">Trabalhos</a>  
+            <a href="#Contato">Contato</a>  
+        </nav>
+    </header>
+
+    <section class="Sobremim" id="sobre"> <!--SESSAO APARA ADICIONAR COMENTARIO DO SOBRE-->
+        <div class="text-sobremim"> <!--UMA DIV PARA SEPARAR O TEXTO-->
+            <h1>Opa! Tranquilo?</h1>
+            <p>Me chamo Douglas tenho 18 anos e estou em busca de me profissionalizar na area de programação</p>
+        </div>
+    </section>
+
+    <section class="formacao" id="Formação"> <!--SESSAO APARA ADICIONAR INFORMAÇOES SOBRE A FORMAÇÂO ACADEMICA-->
+        <div class="text-formacao">
+            <h1>FORMAÇÂO ACADEMICA</h1>
+            <p>Estou estudando programação faz algums anos, nesses anos eu estou em instituições de ensino</p>
+        </div>
+
+        <div class="senac-conteiner">
+            <div class="senac-img"><!--UMA DIV PARA SEPARAR A IMAGEM DO TEXTO-->
+                <img src="src/img/Senacimg.jpg" alt="LogoSenac">   
+            </div>
+            <h2>Senac Tech</h2>
+            <p>Realizei um curso tecnico no Senac em 2022 com duração de 2 anos</p>
+        </div>
+
+        <div class="uninter-conteiner">
+            <div class="uninter-img"><!--UMA DIV PARA SEPARAR A IMAGEM DO TEXTO-->
+                <img src="src/img/Uninterimg.jpg" alt="LogoUninter">
+            </div>
+            <h2>Uninter</h2>
+            <p>Agora Iniciei o Ensino Superior na Uninter</p>
+        </div>
+    </section>
+
+    <section class="trabalhos" id="Trabalhos">
+        <div class="social-icons">
+            <p>Link do Meu github, que tem mais algums projetos meus</p>
+            <a href="https://github.com/Douglasx06"><i class="fa fa-github"></i></a><!--ICON IMPORTADO DO SITE-->
+            <p>Esse projeto eu realizei em conjunto a alura durante a imersão front end da Alura que fizemos uma replica do Spotify</p>
+            <a href="https://github.com/Douglasx06/Spotify"><i class="fa fa-github"></i></a>
+            <p>Esse foi o projeto final do meu curso tecnico no senac, tivemos que integrar a pokeAPI em um projeto</p>
+            <a href="https://github.com/EduardoRizzardi/ProjetoPokeAPI"><i class="fa fa-github"></i></a>
+
+        </div>  
+    </section>
+
+    <section class="contato-conteiner" id="Contato">
+    <p>Entre em Contato: </p>
+        <form class="formcontat"><!--CRIAÇÂO DO FORMULARIO-->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="Telefone">Telefone:</label><br>
+            <input type="tel" id="Telefone" name="Telefone"><br>
+
+            <label for="Email">Email:</label><br>
+            <input type="email" id="Email" name="Email"><br>
+
+            <label for="Desc">Descrição: </label><br>
+            <input type="text" id="Desc" name="Desc"><br>
+            
+            <button class="btn2">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
